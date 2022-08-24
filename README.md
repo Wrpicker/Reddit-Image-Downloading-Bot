@@ -1,5 +1,5 @@
 # Reddit-Image-Downloading-Bot
-Downloads top images of the week from any subreddit
+This script can take up to 5 subreddits and download images from them, saving them into a file. The default setting is Top of the Week, but that can be changed
 
 ## HOW TO USE:
 
