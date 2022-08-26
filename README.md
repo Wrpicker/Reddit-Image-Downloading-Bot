@@ -51,5 +51,15 @@ Once you have all of these files set up, you should be good to go! To run the sc
 
 #### CLIENT INFORMATION EXTENDED
 
-To get the client information necessary to make the script function, you will have to 
+To get the client information necessary to make the script function, you need to create an application on reddit. You can do so here https://ssl.reddit.com/prefs/apps/
+
+After you name it and create it, the Client ID will appear directly under the name. The Client Secret will be labeled "Secret." The username and password are the username and password to the reddit account you made the application on. And lastly, the User Agent is whatever you named it.
+
+#### OPTIONAL FILES
+
+This script defaults to a limit of 100 posts to search through per subreddit and sorts by the timeframe of "week" (for applicable sorting methods such as top and controversial). If you want to change this, you can change the "Modify" variable in the script to True. You will need a text file called "RDB_Config.txt"
+
+The first line of this text file should be the time filter. This can be any of the following: "all", "year", "month", "week", "day", or "hour"
+
+The second line of the text file should be the limit. Note that this controls the number of posts that the script goes through, NOT the number of images it will download. For instance, the limit can be 100 but the script may only download 60 images because only 60 of those posts had images. This can be any number, however reddit itself may limit the amount you can download due to the rate limit.
 
