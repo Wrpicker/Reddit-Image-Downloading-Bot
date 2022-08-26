@@ -1,5 +1,15 @@
 # Reddit-Image-Downloading-Bot
-This script can take up to 5 subreddits and download images from them, saving them into a file. The default setting is Top of the Week, but that can be changed
+This script can take up to 5 subreddits and download images from them, saving them into a file.
+
+## DEPENDENCIES:
+
+-Asyncpraw
+
+-Urllib
+
+-OS
+
+-Asyncio
 
 ## HOW TO USE:
 
@@ -25,4 +35,11 @@ Note that the document should **only** have that text and nothing more. No space
 
 ##### **Client Information Text File:**
 
-This should be a text file called "ClientInfo.txt" and should also be saved in the same location as the python script. 
+This should be a text file called "ClientInfo.txt" and should also be saved in the same location as the python script. This should consist of Client ID, Client Secret, Password, Username, and User Agent, in that order on separate lines. If you do not know what these are, it will be explained later.
+
+#### **Subreddit Text File:**
+
+This should be a text file with a name that consists of a keyword relating all the subreddits and the word "Subs" after. For instance, if you wanted to use thus script for gathering cat pictures, you could use "Cat" as your keyword. The subreddit text file should then be names "CatSubs.txt"
+
+The text file should have the names of the subreddits you want the script to gather images from. The text file **needs to have 5 lines**. If you have less than 
+
