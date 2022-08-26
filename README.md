@@ -41,5 +41,15 @@ This should be a text file called "ClientInfo.txt" and should also be saved in t
 
 This should be a text file with a name that consists of a keyword relating all the subreddits and the word "Subs" after. For instance, if you wanted to use thus script for gathering cat pictures, you could use "Cat" as your keyword. The subreddit text file should then be names "CatSubs.txt"
 
-The text file should have the names of the subreddits you want the script to gather images from. The text file **needs to have 5 lines**. If you have less than 
+The text file should have the names of the subreddits you want the script to gather images from. The text file ***needs to have 5 lines***. If you have less than 5 subreddits, fill the rest of the lines with line breaks. ***DO NOT WRITE ANYTHING ON THESE LINES***.
+
+
+
+
+Once you have all of these files set up, you should be good to go! To run the script just open the command prompt and enter "python RedditDownloadBot.py" (or whatever you have the script saved as).
+
+
+#### CLIENT INFORMATION EXTENDED
+
+To get the client information necessary to make the script function, you will have to 
 
