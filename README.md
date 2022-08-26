@@ -1,5 +1,6 @@
 # Reddit-Image-Downloading-Bot
 This script can take up to 5 subreddits and download images from them, saving them into a file.
+_______________________________________________________________________________________________
 
 ## DEPENDENCIES:
 
@@ -10,6 +11,8 @@ This script can take up to 5 subreddits and download images from them, saving th
 -OS
 
 -Asyncio
+
+_______________________________________________________________________________________________
 
 ## HOW TO USE:
 
@@ -23,9 +26,13 @@ There are 4 files necessary:
 
 -A Subreddit text file
 
+_______________________________________________________________________________________________
+
 ##### **The Main Python Script:**
 
 For this one, all you have to do is download it. There are no modifications necessary for it to function
+
+_______________________________________________________________________________________________
 
 ##### **Directory Text File:**
 
@@ -33,9 +40,13 @@ This should be a text file called "Directory.txt" and should be saved in the sam
 
 Note that the document should **only** have that text and nothing more. No spaces, no linebreaks, nothing else.
 
+_______________________________________________________________________________________________
+
 ##### **Client Information Text File:**
 
 This should be a text file called "ClientInfo.txt" and should also be saved in the same location as the python script. This should consist of Client ID, Client Secret, Password, Username, and User Agent, in that order on separate lines. If you do not know what these are, it will be explained later.
+
+_______________________________________________________________________________________________
 
 #### **Subreddit Text File:**
 
@@ -43,17 +54,19 @@ This should be a text file with a name that consists of a keyword relating all t
 
 The text file should have the names of the subreddits you want the script to gather images from. The text file ***needs to have 5 lines***. If you have less than 5 subreddits, fill the rest of the lines with line breaks. ***DO NOT WRITE ANYTHING ON THESE LINES***.
 
-
-
+_______________________________________________________________________________________________
 
 Once you have all of these files set up, you should be good to go! To run the script just open the command prompt and enter "python RedditDownloadBot.py" (or whatever you have the script saved as).
 
+_______________________________________________________________________________________________
 
 #### CLIENT INFORMATION EXTENDED
 
 To get the client information necessary to make the script function, you need to create an application on reddit. You can do so here https://ssl.reddit.com/prefs/apps/
 
 After you name it and create it, the Client ID will appear directly under the name. The Client Secret will be labeled "Secret." The username and password are the username and password to the reddit account you made the application on. And lastly, the User Agent is whatever you named it.
+
+_______________________________________________________________________________________________
 
 #### OPTIONAL FILES
 
