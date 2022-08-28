@@ -50,7 +50,7 @@ ________________________________________________________________________________
 
 #### **Subreddit Text File:**
 
-This should be a text file with a name that consists of a keyword relating all the subreddits and the word "Subs" after. For instance, if you wanted to use this script for gathering cat pictures, you could use "Cat" as your keyword. The subreddit text file should then be names "CatSubs.txt"
+This should be a text file with a name that consists of a keyword relating all the subreddits and the word "Subs" after. For instance, if you wanted to use this script for gathering cat pictures, you could use "Cat" as your keyword. The subreddit text file should then be named "CatSubs.txt"
 
 The text file should have the names of the subreddits you want the script to gather images from. The text file ***needs to have 5 lines***. If you have less than 5 subreddits, fill the rest of the lines with line breaks. ***DO NOT WRITE ANYTHING ON THESE LINES***.
 
